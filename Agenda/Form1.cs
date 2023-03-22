@@ -45,7 +45,7 @@ namespace Agenda
         {
             SqlConnection conn = new SqlConnection();
 
-            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True";
+            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True;";
 
             conn.Open();
 
@@ -86,7 +86,7 @@ namespace Agenda
 
             SqlConnection conn = new SqlConnection();
 
-            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True";
+            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True;";
 
             conn.Open();
 
@@ -109,7 +109,7 @@ namespace Agenda
         {
             SqlConnection conn = new SqlConnection();
 
-            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True";
+            conn.ConnectionString = "Data Source=LAPTOP-QM5FFGMO\\SQLEXPRESS;Initial Catalog=Agenda;Integrated Security=True;";
 
             conn.Open();
 
